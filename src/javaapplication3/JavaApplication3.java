@@ -1,5 +1,16 @@
 
 package javaapplication3;
+class Heap {
+    int total = 0;
+    Heap left;
+    Heap right;
+
+    public Heap(int total) {
+        this.total = total;
+        left = null;
+        right = null;
+    }
+}
 
 
 
